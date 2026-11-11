@@ -1,0 +1,308 @@
+(footprint "HSS-B20-061H-03"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.99")
+	(layer "F.Cu")
+	(descr "Heatsink Same Sky (CUI) HSS-B20-061H-03, stamped, 19 x 12.7 x 13 mm, TO-220, one solder pin (geometry from Heatsink_AAVID_576802B03900G, practically identical), https://www.sameskydevices.com/product/thermal-management/heat-sinks/board-level-heat-sinks/stamped-heat-sinks/hss-b20-061h-03")
+	(tags "heatsink TO-220 Same Sky CUI HSS-B20-061H-03")
+	(property "Reference" "REF**"
+		(at 6.35 -8.5 0)
+		(layer "F.SilkS")
+		(uuid "debd9c7c-4273-48bc-b731-592ed8a4f41b")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HSS-B20-061H-03"
+		(at 6.35 8.5 0)
+		(layer "F.Fab")
+		(uuid "d78e2fb0-1bb7-44e8-a874-2c6f33c95a28")
+		(effects
+			(font
+				(size 1.0 1.0)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.sameskydevices.com/product/thermal-management/heat-sinks/board-level-heat-sinks/stamped-heat-sinks/hss-b20-061h-03"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af3c7c93-cc83-41ee-8d0b-585dbac20390")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Heatsink Same Sky (CUI) HSS-B20-061H-03, stamped, 19 x 12.7 x 13 mm, TO-220, one solder pin (geometry from Heatsink_AAVID_576802B03900G, practically identical)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "501014fa-ed99-4aa3-bcef-271a6817d997")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.515 -6.46)
+		(end -0.515 -2.125)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "edfb0777-ccef-4018-b0bc-79e3ea36b99f")
+	)
+	(fp_line
+		(start -0.515 -6.46)
+		(end 12.405 -7.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58ed874c-84cc-449c-9c4a-0d6986f7ceba")
+	)
+	(fp_line
+		(start -0.515 2.1)
+		(end -0.515 6.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5265b16-27d8-4662-ba4e-69f2a7008138")
+	)
+	(fp_line
+		(start -0.515 6.46)
+		(end 12.405 7.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2063ff50-a0e8-4908-92a1-548779af8e5f")
+	)
+	(fp_line
+		(start 12.405 -7.35)
+		(end 12.405 7.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d55e177a-4fb4-4746-83d4-b6656a21f6d6")
+	)
+	(fp_line
+		(start 0.405 -1.85)
+		(end 1.675 -1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ca85e521-9050-4da0-90af-734b1ca9a95e")
+	)
+	(fp_line
+		(start 0.405 1.85)
+		(end 1.675 1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ad7310d7-121e-4271-bdac-229eb99bb7fc")
+	)
+	(fp_line
+		(start 0.45 -5)
+		(end 4.45 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0ebc8552-df95-419f-847f-c29e61ef06b5")
+	)
+	(fp_line
+		(start 1.675 -5)
+		(end 1.675 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "66e13ae1-2056-4bd0-96d3-8aaabd4de782")
+	)
+	(fp_line
+		(start 4.45 -5)
+		(end 4.45 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "75a068dc-97ec-46fe-a482-e7235b29477c")
+	)
+	(fp_line
+		(start 4.45 5)
+		(end 0.45 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0ac6d831-8b9b-47bc-862b-40ea2aa7ffe5")
+	)
+	(fp_line
+		(start -1.55 -7.49)
+		(end -1.55 7.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "305be092-b4b2-4f3b-b4d8-6f9ba415ab36")
+	)
+	(fp_line
+		(start -1.55 7.49)
+		(end 12.55 7.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e3ee6a8c-10fe-4d00-9255-7e70da5de32e")
+	)
+	(fp_line
+		(start 12.55 -7.49)
+		(end -1.55 -7.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "544d6e5f-c777-4e26-9ddc-c9bbd17c31a0")
+	)
+	(fp_line
+		(start 12.55 -7.49)
+		(end 12.55 7.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a30859d-56f1-4107-8c30-3cafb5c5dda7")
+	)
+	(fp_line
+		(start -0.405 -6.35)
+		(end -0.405 6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1df8d30d-062a-437a-844d-27edaa888603")
+	)
+	(fp_line
+		(start -0.405 -6.35)
+		(end 12.295 -7.24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bed652c2-c059-466b-9d80-dcda2b5ee5d3")
+	)
+	(fp_line
+		(start 0.405 -5.597)
+		(end 0.405 5.597)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9bc405e-2f47-4a1b-b5b4-6a2dca30edbc")
+	)
+	(fp_line
+		(start 0.405 -5.597)
+		(end 12.295 -6.43)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e90a1c0-9def-4cb6-8cbe-4a17387cec34")
+	)
+	(fp_line
+		(start 12.295 -7.24)
+		(end 12.295 7.24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "feb88f36-86d3-47c4-8bde-536714f225a5")
+	)
+	(fp_line
+		(start 12.295 7.24)
+		(end -0.405 6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "972242c4-36f1-4b58-9f15-63c311bcdbfe")
+	)
+	(fp_line
+		(start 12.3 6.43)
+		(end 0.405 5.597)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b8fea233-9f41-48c2-b15e-4473f1883077")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.35 0 0)
+		(layer "F.Fab")
+		(uuid "18760daa-ca73-4f76-9067-7a9591605b1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 2.6 3.78)
+		(drill oval 1.1 2.28)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(pintype "passive")
+		(uuid "b3697d9d-a04f-48c4-93a7-69a8caa64467")
+	)
+	(embedded_fonts no)
+	(model "${USER_LIB_DIR}/3dmodels/User_Heatsink.3dshapes/HSS-B20-061H-03.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -180 90)
+		)
+	)
+)

@@ -1,0 +1,5 @@
+{
+  "description": "5 V / 2 A non-synchronous buck converter with TI TPS5405 (6.5-28 V input). Proven circuit taken from project PNAE: Cin 10 uF, L 5.6 uH (Bourns SRN3015C), Schottky CDBB345LR, Cout 22 uF, ROSC 180k, SS 3.3 nF, type-II compensation 22k + 2.2 nF || 100 pF. Interface: net label VIN (input), power symbol +5V (output, PWR_FLAG included), GND. PCB layout: 2-layer, all parts on top, about 29 x 23 mm. Short Cin-IC-diode loop, compact LX node (1.0 mm), GND pour on F.Cu plus GND plane on B.Cu with stitching vias, VSENSE routed on B.Cu away from the inductor, VIN and +5V 1.0 mm stubs as connection points.",
+  "keywords": "buck step-down DC-DC regulator 5V TPS5405 power supply",
+  "fields": {}
+}

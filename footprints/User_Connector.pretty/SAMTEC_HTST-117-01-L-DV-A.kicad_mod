@@ -1,0 +1,342 @@
+(footprint "SAMTEC_HTST-117-01-L-DV-A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.99")
+	(layer "F.Cu")
+	(descr "Samtec HTST-117-01-L-DV-A shrouded header, 2x17, pitch 2.54mm, surface mount, vertical, with alignment pins (-A); pads 1.27x5.08mm, 2x NPTH 1.7mm (Samtec 1.676), per Samtec HTST-SM recommended layout rev D, https://www.samtec.com/products/htst")
+	(tags "connector Samtec HTST shrouded header box IDC 2x17 2.54mm SMD")
+	(property "Reference" "REF**"
+		(at 0 -7.3 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HTST-117-01-L-DV-A"
+		(at 0 7.3 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.samtec.com/products/htst"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Samtec HTST-117-01-L-DV-A shrouded header, 2x17, pitch 2.54mm, surface mount, vertical, with alignment pins (-A); pads 1.27x5.08mm, 2x NPTH 1.7mm (Samtec 1.676), per Samtec HTST-SM recommended layout rev D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -25.52 -4.756)
+		(end -21.155 -4.756)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 21.155 -4.756)
+		(end 25.52 -4.756)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -25.52 4.756)
+		(end -21.155 4.756)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 21.155 4.756)
+		(end 25.52 4.756)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -25.52 -4.756)
+		(end -25.52 4.756)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 25.52 -4.756)
+		(end 25.52 4.756)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_poly
+		(pts
+			(xy -21.3 5.5) (xy -22 5.1) (xy -22 5.9)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+	)
+	(fp_poly
+		(pts
+			(xy -24.4 4.6355) (xy -25.4 3.6355) (xy -25.4 -4.6355) (xy 25.4 -4.6355) (xy 25.4 4.6355)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -25.65 -6.22)
+		(end 25.65 6.22)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -20.32 3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "2" smd rect
+		(at -20.32 -3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "3" smd rect
+		(at -17.78 3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "4" smd rect
+		(at -17.78 -3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "5" smd rect
+		(at -15.24 3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "6" smd rect
+		(at -15.24 -3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "7" smd rect
+		(at -12.7 3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "8" smd rect
+		(at -12.7 -3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "9" smd rect
+		(at -10.16 3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "10" smd rect
+		(at -10.16 -3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "11" smd rect
+		(at -7.62 3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "12" smd rect
+		(at -7.62 -3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "13" smd rect
+		(at -5.08 3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "14" smd rect
+		(at -5.08 -3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "15" smd rect
+		(at -2.54 3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "16" smd rect
+		(at -2.54 -3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "17" smd rect
+		(at 0 3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "18" smd rect
+		(at 0 -3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "19" smd rect
+		(at 2.54 3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "20" smd rect
+		(at 2.54 -3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "21" smd rect
+		(at 5.08 3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "22" smd rect
+		(at 5.08 -3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "23" smd rect
+		(at 7.62 3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "24" smd rect
+		(at 7.62 -3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "25" smd rect
+		(at 10.16 3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "26" smd rect
+		(at 10.16 -3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "27" smd rect
+		(at 12.7 3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "28" smd rect
+		(at 12.7 -3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "29" smd rect
+		(at 15.24 3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "30" smd rect
+		(at 15.24 -3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "31" smd rect
+		(at 17.78 3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "32" smd rect
+		(at 17.78 -3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "33" smd rect
+		(at 20.32 3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "34" smd rect
+		(at 20.32 -3.43)
+		(size 1.27 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "" np_thru_hole circle
+		(at -19.05 0)
+		(size 1.7 1.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at 19.05 0)
+		(size 1.7 1.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+	)
+	(embedded_fonts no)
+	(model "${USER_LIB_DIR}/3dmodels/User_Connector.3dshapes/SAMTEC_HTST-117-01-L-DV-A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
