@@ -1,0 +1,187 @@
+(footprint "V2012B"
+	(version 20261017)
+	(generator "pcbnew")
+	(generator_version "10.99")
+	(layer "F.Cu")
+	(descr "Assmann WSW V2012B clip-on heatsink for TO-126, black anodized, 22 x 11 x 19 mm, 21 K/W; the transistor slides inside, metal back on the inner face of the flat wall, top edge against the dimple stop (screw hole only for the alternative screw mounting); heatsink stands on its pin shoulders 3 mm above the board; 2 solder pins not connected, slots 1.1 x 2.0 mm, pads 2.2 x 3.1 mm (annular ring 0.55 mm); origin = pin 1 of the transistor (use TO-126-3_Vertical_Z4.1mm)")
+	(tags "heatsink TO-126 clip-on V2012 V2012B Assmann")
+	(property "Reference" "REF**"
+		(at 2.28 9.6 0)
+		(layer "F.SilkS")
+		(uuid "6243bc38-e979-4137-a310-72d8ded56823")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "V2012B"
+		(at 2.28 6.8 0)
+		(layer "F.Fab")
+		(uuid "b8e505ab-224b-4adc-bdac-a20d3cf76899")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.assmann-wsw.com/us/product/v2012b/"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1837732a-7244-4b46-aa20-b8a9a5437f2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Assmann WSW V2012B clip-on heatsink for TO-126, black anodized, 22 x 11 x 19 mm, 21 K/W; the transistor slides inside, metal back on the inner face of the flat wall, top edge against the dimple stop (screw hole only for the alternative screw mounting); heatsink stands on its pin shoulders 3 mm above the board; 2 solder pins not connected, slots 1.1 x 2.0 mm, pads 2.2 x 3.1 mm (annular ring 0.55 mm); origin = pin 1 of the transistor (use TO-126-3_Vertical_Z4.1mm)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f0d4091-7161-4fd3-8ac8-1c44c73278b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -8.72 -2.8)
+		(end 13.28 8.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "abf0cd4b-158e-4e1c-b0df-8cb6f7e5593a")
+	)
+	(fp_line
+		(start -8.72 -2)
+		(end 13.28 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bea02b93-0e2c-4e96-bb80-e50149115e6c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.28 5.3 0)
+		(layer "F.Fab")
+		(uuid "505e3861-a83f-4950-a99b-e0d05132ad06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -8.84 -2.92)
+		(end 13.4 -2.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a018489-7594-4060-a20e-2b214e79baef")
+	)
+	(fp_line
+		(start -8.84 8.32)
+		(end 13.4 8.32)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5ca6193-9ea9-42e4-808b-2decd3fd7576")
+	)
+	(fp_line
+		(start -8.84 -2.92)
+		(end -8.84 0.305)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b6a04ee-5383-4627-8700-b176a23426f7")
+	)
+	(fp_line
+		(start -8.84 4.045)
+		(end -8.84 8.32)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3fae00a3-c29c-4630-889f-b3c5ea2a784a")
+	)
+	(fp_line
+		(start 13.4 -2.92)
+		(end 13.4 0.305)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e16c4ff5-a110-4f25-82f5-1befd98c6130")
+	)
+	(fp_line
+		(start 13.4 4.045)
+		(end 13.4 8.32)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e43d66b-1675-4d4a-b167-5d33ab2f8589")
+	)
+	(fp_rect
+		(start -9.67 -3.05)
+		(end 14.23 8.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "df97df9e-792b-4552-b7bb-aaf7fc829c44")
+	)
+	(pad "" thru_hole oval
+		(at -8.32 2.175)
+		(size 2.2 3.1)
+		(drill oval 1.1 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d49564e6-e6df-4a4b-8a1d-3d4df2d2096d")
+	)
+	(pad "" thru_hole oval
+		(at 12.88 2.175)
+		(size 2.2 3.1)
+		(drill oval 1.1 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6d003dd3-1ff7-45ca-91ea-d7c7d920a65c")
+	)
+	(embedded_fonts no)
+	(model "${USER_LIB_DIR}/3dmodels/User_Heatsink.3dshapes/V2012B.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
