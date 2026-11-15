@@ -1,0 +1,193 @@
+(footprint "CUI_SJ1-3535"
+	(version 20261017)
+	(generator "pcbnew")
+	(generator_version "10.99")
+	(layer "F.Cu")
+	(descr "Same Sky (CUI) SJ1-3535 3.5 mm stereo jack with tip and ring switches, right angle THT, threaded M6 x 0.5 bushing 4 mm for panel mounting; recommended PCB layout from datasheet SJ1-353X (09/12/2024): 5 slots 2.0 x 0.8 mm, pads 2.8 x 1.6 mm (pad 1 2.8 x 1.4 mm: 0.4 mm copper to the board edge when the body front is flush with the edge); origin = pin 1 (sleeve); front face of the body (panel) 1.1 mm in front of pin 1; pins 1 sleeve, 2 tip, 3 ring, 4 tip switch, 5 ring switch")
+	(tags "audio jack 3.5mm stereo switched Same Sky CUI SJ1-3535")
+	(property "Reference" "REF**"
+		(at 0.15 14.2 0)
+		(layer "F.SilkS")
+		(uuid "85978ae8-339d-411f-8368-c7a351785b9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SJ1-3535"
+		(at 0.15 15.6 0)
+		(layer "F.Fab")
+		(uuid "c0570729-67ea-4c05-ae5c-d64b8b6b5c33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.sameskydevices.com/product/interconnect/connectors/audio-connectors/jacks/sj1-3535"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4faec3c-d634-40b8-8547-365dcb4e27d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Same Sky (CUI) SJ1-3535 3.5 mm stereo jack with tip and ring switches, right angle THT, threaded M6 x 0.5 bushing 4 mm for panel mounting; recommended PCB layout from datasheet SJ1-353X (09/12/2024): 5 slots 2.0 x 0.8 mm, pads 2.8 x 1.6 mm (pad 1 2.8 x 1.4 mm: 0.4 mm copper to the board edge when the body front is flush with the edge); origin = pin 1 (sleeve); front face of the body (panel) 1.1 mm in front of pin 1; pins 1 sleeve, 2 tip, 3 ring, 4 tip switch, 5 ring switch"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21bca17f-9611-4930-b157-13ac71a9f568")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.9 -1.1)
+		(end 4.2 12.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3e9fdbe7-a9a0-4bf5-b247-7e7a5cc60484")
+	)
+	(fp_rect
+		(start -2.1 -5.1)
+		(end 3.9 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3b6c3863-e388-48ea-8b35-93dbeac694a3")
+	)
+	(fp_line
+		(start 0.9 -6)
+		(end 0.9 12.9)
+		(stroke
+			(width 0.05)
+			(type dash)
+		)
+		(layer "F.Fab")
+		(uuid "e97efe61-a2b4-49fa-8691-5e13b43c2175")
+	)
+	(fp_line
+		(start -7 -1.1)
+		(end 8 -1.1)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.Fab")
+		(uuid "154fb33b-a336-4205-918d-5a78ed6e6053")
+	)
+	(fp_text user "PANEL"
+		(at 5.9 -1.8 0)
+		(layer "F.Fab")
+		(uuid "56d03235-3b5c-4c6d-826c-983f6e7000a3")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.15 4.5 0)
+		(layer "F.Fab")
+		(uuid "bc35ea08-2103-42c5-9f93-3d2c4d95e6a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -4.02 -1.22)
+		(end 4.32 13.02)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fba1ec52-c4f6-4871-897c-d2c43b1646a3")
+	)
+	(fp_poly
+		(pts (xy -4.15 -1.35) (xy -2.35 -1.35) (xy -2.35 -5.35) (xy 4.15 -5.35) (xy 4.15 -1.35) (xy 4.45 -1.35) (xy 4.45 13.15) (xy -4.15 13.15))
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9852cff2-d7c2-4d8d-8016-c36365799353")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.8 1.4)
+		(drill oval 2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9cc7dfc5-5aee-40c6-8abc-3a75dfe6e817")
+	)
+	(pad "2" thru_hole oval
+		(at 2 2.4)
+		(size 2.8 1.6)
+		(drill oval 2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "44ce584a-0e0b-4c0a-99bf-932aaf0dbc71")
+	)
+	(pad "3" thru_hole oval
+		(at 2 8)
+		(size 2.8 1.6)
+		(drill oval 2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "68c47c0f-6f7f-4f45-84a5-39b4809f9ef6")
+	)
+	(pad "4" thru_hole oval
+		(at 0 11.9)
+		(size 2.8 1.6)
+		(drill oval 2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c0d2d15b-ac7b-4f4d-831d-79747fb8b207")
+	)
+	(pad "5" thru_hole oval
+		(at 0 6.1)
+		(size 2.8 1.6)
+		(drill oval 2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f3643b84-8783-409f-bc88-2a68e2967736")
+	)
+	(embedded_fonts no)
+	(model "${USER_LIB_DIR}/3dmodels/User_Connector.3dshapes/Same_Sky_SJ1-3535.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
