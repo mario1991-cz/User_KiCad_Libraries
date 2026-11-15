@@ -1,0 +1,223 @@
+(footprint "PDB182-K"
+	(version 20261017)
+	(generator "pcbnew")
+	(generator_version "10.99")
+	(layer "F.Cu")
+	(descr "Bourns PDB18 17 mm dual-gang rotary potentiometer, pin configuration K (PC pins vertical, down facing), shaft parallel to the board; M7 x 0.75 bushing, 6 mm shaft (length L from the mounting face), anti-rotation lug 2 mm; covers all PDB182-K... variants (detent, shaft length, taper). Origin = pin 1 of the front section; mounting face (panel) 3.8 mm in front of the front pin row; pads 1-3 = front section R1, 4-6 = rear section R2 (1'-3'); pins 1.0 x 0.5 mm in slots 1.3 x 0.8 mm. 3D model = PDB182-K2220K (L 20 mm)")
+	(tags "potentiometer dual Bourns PDB18 PDB182 panel")
+	(property "Reference" "REF**"
+		(at -5 9.3 0)
+		(layer "F.SilkS")
+		(uuid "6b555608-8a9a-42e1-8103-51daed90754d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PDB182-K"
+		(at -5 10.8 0)
+		(layer "F.Fab")
+		(uuid "7642faaf-05a4-47b0-ad4d-b834cdddd0f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PDB18.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09512d63-ea7f-4698-bb96-0259e387d9f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Bourns PDB18 17 mm dual-gang rotary potentiometer, pin configuration K (PC pins vertical, down facing), shaft parallel to the board; M7 x 0.75 bushing, 6 mm shaft (length L from the mounting face), anti-rotation lug 2 mm; covers all PDB182-K... variants (detent, shaft length, taper). Origin = pin 1 of the front section; mounting face (panel) 3.8 mm in front of the front pin row; pads 1-3 = front section R1, 4-6 = rear section R2 (1'-3'); pins 1.0 x 0.5 mm in slots 1.3 x 0.8 mm. 3D model = PDB182-K2220K (L 20 mm)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "491a90ea-e8f5-4fe3-a4f6-891458cf7426")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -13.5 -3.8)
+		(end 3.5 7.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7aec3bbf-758a-4d18-bf2b-3034165f97bb")
+	)
+	(fp_rect
+		(start -8.5 -10.3)
+		(end -1.5 -3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "38d9ce33-1a84-4d3a-b82f-adf3ac8f52f1")
+	)
+	(fp_rect
+		(start -8 -23.8)
+		(end -2 -10.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1429791d-5310-43e4-ad29-6185f36b9275")
+	)
+	(fp_rect
+		(start 2.3 -5.8)
+		(end 3.43 -3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d7eccd9b-5e35-430e-a979-df3cd563c760")
+	)
+	(fp_line
+		(start -5 -25)
+		(end -5 7.7)
+		(stroke
+			(width 0.05)
+			(type dash)
+		)
+		(layer "F.Fab")
+		(uuid "09a15ba2-342e-4fad-b4cb-c3b73d5908e9")
+	)
+	(fp_line
+		(start -17 -3.8)
+		(end 7 -3.8)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.Fab")
+		(uuid "f914463c-c3cb-4fa6-9f88-fd5580075661")
+	)
+	(fp_text user "PANEL"
+		(at 4.6 -4.6 0)
+		(layer "F.Fab")
+		(uuid "0b6eccaf-97de-4cfd-ae5c-f898f921a188")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -5 2.5 0)
+		(layer "F.Fab")
+		(uuid "d4cdd0fb-6043-4f0a-8c7b-9d526dabea55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -13.62 -3.92)
+		(end 3.62 7.82)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "237bc28c-9932-4233-869b-17ef64ef8602")
+	)
+	(fp_poly
+		(pts (xy -13.75 -6.05) (xy -8.75 -6.05) (xy -8.75 -10.55) (xy -8.25 -10.55) (xy -8.25 -24.05) (xy -1.75 -24.05) (xy -1.75 -10.55) (xy -1.25 -10.55) (xy -1.25 -6.05) (xy 3.75 -6.05) (xy 3.75 7.95) (xy -13.75 7.95))
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bfb44420-023e-411d-bdc2-67fdea8f54c3")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.1 1.6)
+		(drill oval 1.3 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5096f52d-d463-400a-ac97-306d018ce31f")
+	)
+	(pad "2" thru_hole oval
+		(at -5 0)
+		(size 2.1 1.6)
+		(drill oval 1.3 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4fb73d04-2130-4244-b7d7-638ffde68209")
+	)
+	(pad "3" thru_hole oval
+		(at -10 0)
+		(size 2.1 1.6)
+		(drill oval 1.3 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "373a9b75-99c7-4626-9ad9-41844e7f002d")
+	)
+	(pad "4" thru_hole oval
+		(at 0 5)
+		(size 2.1 1.6)
+		(drill oval 1.3 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9d438968-4099-41a2-9006-abfdb147b7ae")
+	)
+	(pad "5" thru_hole oval
+		(at -5 5)
+		(size 2.1 1.6)
+		(drill oval 1.3 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "64ae406f-72a0-4b1a-86d4-310e7344cbf7")
+	)
+	(pad "6" thru_hole oval
+		(at -10 5)
+		(size 2.1 1.6)
+		(drill oval 1.3 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "63a65824-2fe5-440c-ab06-ebab38f11b52")
+	)
+	(embedded_fonts no)
+	(model "${USER_LIB_DIR}/3dmodels/User_Potentiometer_THT.3dshapes/PDB182-K.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
